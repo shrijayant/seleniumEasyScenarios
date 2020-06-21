@@ -41,11 +41,33 @@
             <artifactId>log4j-api</artifactId>
             <version>2.13.3</version>
         </dependency>
+        <!--Below dependency is used to get Log4j jar files-->
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>
             <artifactId>log4j-core</artifactId>
             <version>2.13.3</version>
         </dependency>
+
+        <!--Below dependency is used to get ashot jar files used to take screenshots-->
+        <dependency>
+            <groupId>ru.yandex.qatools.ashot</groupId>
+            <artifactId>ashot</artifactId>
+            <version>1.5.4</version>
+        </dependency>
+
+
+
+        <dependency>
+            <groupId>com.vimalselvam</groupId>
+            <artifactId>cucumber-extentsreport</artifactId>
+            <version>3.0.2</version>
+        </dependency>
+        <dependency>
+            <groupId>com.aventstack</groupId>
+            <artifactId>extentreports</artifactId>
+            <version>4.0.8</version>
+        </dependency>
+
 
 
     </dependencies>

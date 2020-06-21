@@ -1,16 +1,11 @@
 package utilities;
 
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import java.io.IOException;
 import java.util.Properties;
 import java.io.FileInputStream;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 
-
-public class DriverInstant extends Logs  {
+public class DriverInstant extends Logs {
 
     public static WebDriver driver;
     public static String url;
@@ -42,6 +37,12 @@ public class DriverInstant extends Logs  {
         url = prop.getProperty("url");
         setDriver(browserName);
 
-
     }
+    public static void scr() throws IOException {
+        screenshot sr = new screenshot();
+        sr.Scrnsht();
+    }
+
+
+
 }

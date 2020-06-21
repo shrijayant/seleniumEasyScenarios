@@ -9,7 +9,7 @@ public class ChromeDriver extends DriverInstant {
         log.info("Google chrome browser is being launched to Run the tests");
         driver.manage().window().maximize();
         driver.get(url);
-        log.info("Requested URL is launched");
+        log.info("Requested URL\""+url+"\" is launched");
 
     }
 
