@@ -1,0 +1,2 @@
+23:33:45.179 [main] INFO  utilities.Logs - Google chrome browser is being launched to Run the tests
+23:33:56.017 [main] INFO  utilities.Logs - Requested URL"https://www.seleniumeasy.com/test/" is launched
